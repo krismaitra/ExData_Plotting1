@@ -52,20 +52,11 @@ with(
          lines(Time, Sub_metering_3, col = "blue"),
          lines(Time, Sub_metering_1))
     )
-#    plot(Time, Sub_metering_2, lty = 1, pch = 46, xlab = "", 
-#         ylab = "Energy sub metering", col = "red", type = "n",
-#         lines(Time, Sub_metering_2, col = "red")),
-#    plot(Time, Sub_metering_3, lty = 1, pch = 46, xlab = "", 
-#         ylab = "Energy sub metering", col = "blue", type = "n",
-#         lines(Time, Sub_metering_3, col = "blue")),
-#    plot(Time, Sub_metering_1, lty = 1, pch = 46, xlab = "", 
-#         ylab = "Energy sub metering", type = "n", 
-#         lines(Time, Sub_metering_1))
 )
 legend("topright", lty = 1 , col = c("black", "blue", "red"), 
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
        cex = 0.8, pt.cex = cex,
-       box.lty = 0, inset = 0.01)
+       box.lty = 0, inset = 0.008)
 
 
 #Plot 4
